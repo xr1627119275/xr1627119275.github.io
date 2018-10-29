@@ -664,6 +664,9 @@ ul.key li > span {
     margin-right: 0;
 }
 
+.gallery .list_box ul li:nth-child(n+5) {
+    margin-bottom: 0;
+}
 .gallery .list_box ul li, .gallery .list_box ul li img, .gallery .list_box ul li a {
     width: 342px;
     height: 473px;
