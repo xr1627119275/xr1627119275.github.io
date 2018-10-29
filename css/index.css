@@ -721,6 +721,7 @@ ul.key li > span {
 
 /*左边固定栏*/
 .fixLeft {
+    display: none;
     position: fixed;
     left: 60px;
     top: 50%;
