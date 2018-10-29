@@ -130,6 +130,26 @@ $(".fixLeft ul li").delegate("a", "click", function () {
         $('body,html').animate({scrollTop: $(ele).offset().top}, 500);
     }
 
-})
+});
 
 //左边固定导航栏
+
+
+//视频播放
+$(".Video li").mouseenter(function () {
+
+    var videoplayer = $(this).children("video")[0];
+
+    if (videoplayer.paused) {
+        videoplayer.play();
+    }
+    $(videoplayer).show();
+}).mouseleave(function () {
+    var videoplayer = $(this).children("video")[0];
+    videoplayer.pause();
+
+    $(videoplayer).hide();
+})
+
+
+//视频播放

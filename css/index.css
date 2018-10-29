@@ -685,6 +685,59 @@ ul.key li > span {
 
 /*背景图库专题*/
 
+/*办公文档专题*/
+.Word .list_box ul li {
+    margin-right: 25px;
+}
+
+.Word .list_box ul li:last-child {
+    margin-right: 0;
+}
+
+.Word .list_box ul li, .Word .list_box ul li img, .Word .list_box ul li a {
+    width: 342px;
+    height: 548px;
+}
+
+/*办公文档专题Over*/
+
+/*视频音频专题*/
+.Video .list_box ul li {
+    position: relative;
+    margin-right: 28px;
+}
+
+.Video .list_box ul li:last-child {
+    margin-right: 0;
+}
+
+.Video .list_box ul li, .Video .list_box ul li img, .Video .list_box ul li a, .Video video {
+    width: 340px;
+    height: 191px;
+}
+
+.Video .list_box ul li a:hover .img_msg {
+    display: none;
+}
+
+/*.Video .list_box ul li:hover video{*/
+/*display: block;*/
+/*}*/
+
+.Video video {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+/*视频音频专题Over*/
+
+
+
+
+
 /*左边固定栏*/
 .fixLeft {
     display: none;
