@@ -44,7 +44,7 @@ body {
     margin-right: 3px;
 }
 
-.topheader .fl a:hover:before {
+.topheader .fl a:hover:before, .topheader .fl a:hover {
     color: #008AFF;
 }
 
