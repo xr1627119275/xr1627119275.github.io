@@ -5,7 +5,7 @@
 }
 
 body {
-    /*height: 1500px;*/
+    height: 4000px;
 }
 
 @font-face {
@@ -508,6 +508,237 @@ ul.key li > span {
     opacity: 0.4;
 }
 
+
+
+.main_bottom ul {
+    margin: 35px 0 32px;
+    height: 180px;
+}
+
+.list_box ul li {
+
+    float: left;
+    width: 268px;
+    height: 100%;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.list_box ul li:nth-child(5n) {
+    margin-right: 0;
+}
+
+.list_box ul li a {
+    position: absolute;
+    display: block;
+    width: 268px;
+    height: 180px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.list_box ul li a > img {
+    width: 268px;
+    height: 180px;
+
+}
+
+.list_box ul li a:hover .img_msg {
+    transition: all 0.4s;
+    height: 100%
+}
+
+.list_box .img_msg {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+}
+
+.list_box .img_msg div {
+    height: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.list_box .img_msg span.down_msg {
+    display: block;
+    line-height: 45px;
+    border-bottom: 2px solid rgba(255, 255, 255, .6);
+    color: #fff;
+    font-size: 20px;
+}
+
+.list_box .img_msg span.num {
+    display: block;
+    line-height: 43px;
+    color: rgba(255, 255, 255, .9);
+    font-size: 20px;
+}
+
+/*专题*/
+.allSpecial {
+    background-color: #f9f9f9;
+
+}
+
+/*标题通用代码*/
+.title {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.title h1 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.title .link {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.title .link span, .title .link a {
+    transition: all 0.5s;
+    color: #038bfe;
+    font-size: 16px;
+}
+
+.title .link div {
+    display: inline-block;
+    position: relative;
+
+}
+
+.title .link div span {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+.title .link a:hover + span {
+    left: 110%;
+}
+
+/*标题通用代码*/
+
+/*免抠元素专题*/
+
+.element {
+    padding-top: 88px;
+}
+.element .list_box ul li, .element .list_box ul li img, .element .list_box ul li a {
+    height: 268px;
+}
+
+.element .list_box ul li a:hover .img_msg {
+    transition: all 0.4s;
+    height: 100%;
+    background: url("../images/all-hoverbg.png") repeat center;
+}
+
+.element .list_box ul li:nth-child(n+6) {
+    margin-bottom: 0;
+}
+
+/*免抠元素专题*/
+
+/*背景图库专题*/
+.gallery {
+    padding-top: 88px;
+}
+
+.gallery .list_box ul li:nth-child(1), .gallery .list_box ul li:nth-child(5) {
+    margin-right: 20px;
+}
+
+.gallery .list_box ul li:nth-child(4), .gallery .list_box ul li:nth-child(6) {
+    margin-right: 0;
+}
+
+.gallery .list_box ul li, .gallery .list_box ul li img, .gallery .list_box ul li a {
+    width: 342px;
+    height: 473px;
+}
+
+.gallery .list_box ul li:nth-child(n+5), .gallery .list_box ul li:nth-child(n+5) img, .gallery .list_box ul li:nth-child(n+5) a {
+    width: 708px;
+    height: 270px;
+}
+
+.gallery .list_box ul li a:hover .img_msg {
+    transition: all 0.4s;
+    height: 100%;
+    background: url("../images/all-hoverbg.png") repeat center;
+}
+
+/*背景图库专题*/
+
+/*左边固定栏*/
+.fixLeft {
+    display: none;
+    position: fixed;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fixLeft ul {
+    width: 88px;
+}
+
+.fixLeft ul a {
+    display: block;
+    width: 86px;
+    height: 49px;
+    border-top: 1px solid #a4d1f5;
+    border-left: 1px solid #a4d1f5;
+    border-right: 1px solid #a4d1f5;
+    text-align: center;
+    line-height: 50px;
+}
+
+.fixLeft ul li:nth-child(8) {
+    height: 48px;
+    border-bottom: 1px solid #a4d1f5;
+}
+
+.fixLeft ul li a:hover {
+    background-color: #a4d1f5;
+    color: #fff;
+}
+
+.fixLeft ul li:last-child a {
+    overflow: hidden;
+    border: 0;
+    height: 50px;
+    width: 88px;
+    color: #ffffff;
+    line-height: 16px;
+    font-size: 16px;
+    background-color: #1584dc;
+}
+
+.fixLeft ul li i {
+    display: block;
+    width: 24px;
+    height: 13px;
+    margin: 10px auto 3px;
+    background: url(//static.588ku.com/imgPath/index/images/indexV3-icon.png) no-repeat -340px -154px
+}
+
+/*左边固定栏*/
+
+/*右边固定栏*/
+
 .fixRight {
     position: fixed;
     right: 0;
@@ -587,194 +818,7 @@ ul.key li > span {
     }
 }
 
-.main_bottom ul {
-    margin: 35px 0 32px;
-    height: 180px;
-}
 
-.list_box ul li {
-
-    float: left;
-    width: 268px;
-    height: 100%;
-    margin-right: 25px;
-    margin-bottom: 25px;
-
-}
-
-.list_box ul li:nth-child(5n) {
-    margin-right: 0;
-}
-
-.list_box ul li a {
-    position: absolute;
-    display: block;
-    width: 268px;
-    height: 180px;
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-.list_box ul li a > img {
-    width: 268px;
-    height: 180px;
-
-}
-
-.list_box ul li a:hover .img_msg {
-    transition: all 0.4s;
-    height: 100%
-}
-
-.list_box .img_msg {
-    overflow: hidden;
-    position: absolute;
-    bottom: 0;
-    height: 45px;
-    width: 100%;
-    text-align: center;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
-}
-
-.list_box .img_msg div {
-    height: 45px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.list_box .img_msg span.down_msg {
-    display: block;
-    line-height: 45px;
-    border-bottom: 2px solid rgba(255, 255, 255, .6);
-    color: #fff;
-    font-size: 20px;
-}
-
-.list_box .img_msg span.num {
-    display: block;
-    line-height: 43px;
-    color: rgba(255, 255, 255, .9);
-    font-size: 20px;
-}
-
-/*专题*/
-.allSpecial {
-    background-color: #f9f9f9;
-    height: 1000px;
-}
-
-.element {
-    padding-top: 88px;
-}
-
-.title {
-    width: 100%;
-    text-align: center;
-    position: relative;
-    margin-bottom: 40px;
-}
-
-.title h1 {
-    font-size: 30px;
-    line-height: 30px;
-}
-
-.title .link {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-.title .link span, .element > .title .link a {
-    transition: all 0.5s;
-    color: #038bfe;
-    font-size: 16px;
-}
-
-.title .link div {
-    display: inline-block;
-    position: relative;
-
-}
-
-.title .link div span {
-    position: absolute;
-    top: 0;
-    left: 100%;
-}
-
-.title .link a:hover + span {
-    left: 110%;
-}
-
-.element .list_box ul li, .element .list_box ul li img, .element .list_box ul li a {
-    height: 268px;
-}
-
-.element .list_box ul li a:hover .img_msg {
-    transition: all 0.4s;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .4);
-}
-
-/*左边固定栏*/
-.fixLeft {
-    display: none;
-    position: fixed;
-    left: 60px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.fixLeft ul {
-    width: 88px;
-}
-
-.fixLeft ul a {
-    display: block;
-    width: 86px;
-    height: 49px;
-    border-top: 1px solid #a4d1f5;
-    border-left: 1px solid #a4d1f5;
-    border-right: 1px solid #a4d1f5;
-    text-align: center;
-    line-height: 50px;
-}
-
-.fixLeft ul li:nth-child(8) {
-    height: 48px;
-    border-bottom: 1px solid #a4d1f5;
-}
-
-.fixLeft ul li a:hover {
-    background-color: #a4d1f5;
-    color: #fff;
-}
-
-.fixLeft ul li:last-child a {
-    overflow: hidden;
-    border: 0;
-    height: 50px;
-    width: 88px;
-    color: #ffffff;
-    line-height: 16px;
-    font-size: 16px;
-    background-color: #1584dc;
-}
-
-.fixLeft ul li i {
-    display: block;
-    width: 24px;
-    height: 13px;
-    margin: 10px auto 3px;
-    background: url(//static.588ku.com/imgPath/index/images/indexV3-icon.png) no-repeat -340px -154px
-}
-
-/*左边固定栏*/
-
-/*右边固定栏*/
 .fixRight ul.top li {
 
     padding: 17.5px 0;
