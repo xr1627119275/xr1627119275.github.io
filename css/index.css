@@ -702,9 +702,13 @@ ul.key li > span {
 /*办公文档专题Over*/
 
 /*视频音频专题*/
+.Video .list_box ul {
+    padding-bottom: 62px;
+}
 .Video .list_box ul li {
     position: relative;
     margin-right: 28px;
+    margin-bottom: 0;
 }
 
 .Video .list_box ul li:last-child {
@@ -734,9 +738,46 @@ ul.key li > span {
 
 /*视频音频专题Over*/
 
+/*VIP专区*/
+.viptop {
+    height: 136px;
+    padding: 35px 0 100px;
+}
 
+.viptop dl {
+    float: left;
+    height: 100%;
+    width: 280px;
+    /*background-color: pink;*/
+    margin-right: 106px;
+    text-align: center;
+}
 
+.viptop dl:last-child {
+    margin-right: 0;
+}
 
+.viptop dl dt {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: url(//static.588ku.com/imgPath/index/images180509/advantage-001.svg) no-repeat center;
+    margin: 0 auto 23px;
+}
+
+.viptop dl dd > span:first-child {
+    display: block;
+    font-size: 16px;
+
+    height: 39px;
+}
+
+.viptop dl dd > span:last-child {
+    font-size: 14px;
+    color: rgba(0, 0, 0, .4);
+}
+
+/*VIP专区Over*/
 
 /*左边固定栏*/
 .fixLeft {
