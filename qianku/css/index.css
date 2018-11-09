@@ -739,6 +739,9 @@ ul.key li > span {
 /*视频音频专题Over*/
 
 /*VIP专区*/
+.VIP {
+    width: 100%;
+}
 .viptop {
     height: 136px;
     padding: 35px 0 95px;
@@ -882,7 +885,7 @@ ul.key li > span {
 
 /*底部Footer*/
 .Footer {
-    width: 100%;
+
     background-color: #232323;
 }
 
