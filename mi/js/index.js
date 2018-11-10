@@ -8,7 +8,7 @@ $(function () {
         $(".mi_nav>ul>li").forEach(function (item, index) {
             navSize += $(item).width();
         });
-        $(".mi_nav>ul").width(navSize + $(".mi_nav span").width() - 20);
+        $(".mi_nav>ul").width(navSize + $(".mi_nav span").width());
     }
 
     navSize();
