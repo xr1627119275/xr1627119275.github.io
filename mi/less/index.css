@@ -320,10 +320,12 @@ footer {
 }
 footer li {
   width: 25%;
+  height: 100%;
   float: left;
 }
 footer li a {
   display: block;
+  height: 100%;
 }
 footer li a i {
   display: block;
