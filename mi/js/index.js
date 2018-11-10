@@ -11,6 +11,7 @@ $(function () {
         $(".mi_nav>ul").width(navSize + $(".mi_nav span").width() - 20);
     }
 
+    navSize();
     $("html").resize(navSize).toggle(navSize);
 
 
