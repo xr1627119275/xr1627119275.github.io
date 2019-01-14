@@ -2,23 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>xr小米移动商城</title>
+    <title>WIFI设置</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="lib/mui/css/mui.css">
     <link rel="stylesheet" href="less/index.css">
+    <script src="lib/mui/mui.js"></script>
 </head>
 <body>
 <div class="container">
     <header class="tabBar">
         <ul>
-            <li><a href="javascript:;">运行状态</a></li>
+            <li><a href="index.html">运行状态</a></li>
             <li><a href="WIFI.html">WIFI设置</a> </li>
             <li><a href="#">系统设置</a></li>
         </ul>
     </header>
 
     <section class="content">
-        <div class="wifibox">
+        <div class="wifibox clearFix">
             <div class="title">
                 2.4G无线网络设置
             </div>
@@ -27,7 +28,7 @@
                 <p class="f_right">(如果隐藏别人搜索不到的话)</p>
                 <div class="mui-switch f_right">
                     <div class="mui-switch-handle">
-                </div>
+                    </div>
                 </div>
             </div>
 
@@ -45,7 +46,50 @@
                     <input type="text" value="1234568888">
                 </div>
             </div>
+            <div class="button">
+                <input type="button" value="保存">
+            </div>
+        </div>
 
+
+        <div class="wifibox clearFix">
+            <div class="title">
+                5G无线网络设置
+            </div>
+            <div class="switch clearFix" >
+                <p class="f_left">无线网络状态:</p>
+                <p class="f_right">(默认不开启5G路由器)</p>
+                <div class="mui-switch f_right">
+                    <div class="mui-switch-handle">
+                    </div>
+                </div>
+            </div>
+            <div class="switch clearFix" >
+                <p class="f_left">隐藏无线网络:</p>
+                <p class="f_right">(如果隐藏别人搜索不到的话)</p>
+                <div class="mui-switch f_right">
+                    <div class="mui-switch-handle">
+                    </div>
+                </div>
+            </div>
+
+            <div class="input clearFix">
+                <div class="f_left">SSID:
+                </div>
+                <div class="f_right">
+                    <input type="text" value="TP-LINK">
+                </div>
+            </div>
+            <div class="input clearFix">
+                <div class="f_left">无线密码:
+                </div>
+                <div class="f_right">
+                    <input type="text" value="1234568888">
+                </div>
+            </div>
+            <div class="button">
+                <input type="button" value="保存">
+            </div>
         </div>
     </section>
 

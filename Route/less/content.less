@@ -66,6 +66,8 @@
 
   .wifibox{
     padding:0 20rem/@baseFontSize;
+    margin-bottom: 40rem/@baseFontSize;
+
     .title {
       background-color: #edf3f9;
       border: 1px solid #d6dce2;
@@ -84,11 +86,17 @@
         line-height: 60rem/@baseFontSize;
         color: #000;
       }
-
       p.f_right{
         font-size: 10rem/@baseFontSize;
         color: #cccccc;
       }
+      @media (min-width:720px){
+        div.f_right{
+          margin-top: 15rem/@baseFontSize;
+        }
+      }
+
+
     }
     .input {
       width: 100%;
@@ -98,5 +106,19 @@
         line-height: 60rem/@baseFontSize;
       }
     }
+
+    .button{
+      height: 100rem/@baseFontSize;
+      padding: 20rem/@baseFontSize 0;
+      input[type=button]{
+        border-radius: 10rem/@baseFontSize;
+        background-color: #48a3ff;
+        color: #ffffff;
+        margin-top: 15rem/@baseFontSize;
+        width: 140rem/@baseFontSize;
+        height: 70rem/@baseFontSize;
+      }
+    }
+
   }
 }
