@@ -193,6 +193,12 @@ textarea {
   width: 100%;
   padding: 0.2rem;
 }
+.content input[type=text] {
+  width: 5rem;
+}
+.content input[type=password] {
+  width: 5rem;
+}
 .content .box {
   border: 0.01rem solid #ccc;
   padding-bottom: 0.2rem;
