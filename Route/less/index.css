@@ -82,7 +82,6 @@ textarea {
   border: none;
   outline: none;
   resize: none;
-  -webkit-appearance: none;
 }
 .f_left {
   float: left;
@@ -280,6 +279,18 @@ textarea {
     margin-top: 0.15rem;
   }
 }
+.content .wifibox p.tip1 {
+  text-align: center;
+  color: #aabdd3;
+  font-size: 0.12rem;
+  margin: 0;
+}
+.content .wifibox p.tip2 {
+  text-align: center;
+  color: #e5d7d7;
+  font-size: 0.12rem;
+  margin: 0;
+}
 .content .wifibox .input {
   width: 100%;
   height: 1rem;
@@ -289,7 +300,6 @@ textarea {
   line-height: 0.6rem;
 }
 .content .wifibox .button {
-  height: 1rem;
   padding: 0.2rem 0;
 }
 .content .wifibox .button input[type=button] {
@@ -297,8 +307,40 @@ textarea {
   background-color: #48a3ff;
   color: #ffffff;
   margin-top: 0.15rem;
-  width: 1.4rem;
+  padding: 0 0.2rem;
   height: 0.7rem;
+}
+.content .wifibox .button input[type=button].save {
+  padding: 0 0.4rem;
+}
+.content .wifibox div.week {
+  margin: 0.2rem 0;
+  height: 0.4rem;
+}
+.content .wifibox div.week span {
+  line-height: 0.4rem;
+}
+.content .wifibox div.week input[type=checkbox] {
+  float: left;
+  display: block;
+  margin-top: 0.06rem;
+  width: 0.28rem;
+  height: 0.28rem;
+  border: 0.01rem solid #000;
+}
+.content .wifibox div.time {
+  margin: 0.4rem 0 0.2rem;
+  height: 0.6rem;
+}
+.content .wifibox div.time span {
+  line-height: 0.6rem;
+}
+.content .wifibox div.time input {
+  width: 1.8rem;
+  height: 0.6rem;
+}
+.content .wifibox div.time input.first {
+  margin-left: 0.4rem;
 }
 .switch-container {
   height: 30px;

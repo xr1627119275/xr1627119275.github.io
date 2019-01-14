@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>系统设置</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="lib/mui/css/mui.css">
+  <link rel="stylesheet" href="less/index.css">
+  <script src="lib/mui/mui.js"></script>
+</head>
+<body>
+<div class="container">
+  <header class="tabBar">
+    <ul>
+      <li><a href="index.html">运行状态</a></li>
+      <li><a href="WIFI.html">WIFI设置</a> </li>
+      <li><a href="javascript:;">系统设置</a></li>
+    </ul>
+  </header>
+
+  <section class="content">
+    <div class="wifibox clearFix">
+      <div class="title">
+       设备操作
+      </div>
+      <div class="button" style="display: flex;margin-bottom: 0.2rem">
+        <div style="flex: 1;text-align: center">
+          <input  type="button" value="恢复出厂设置">
+        </div>
+        <div style="flex: 1;text-align: center">
+          <input  type="button" value="重启路由器">
+        </div>
+      </div>
+
+      <div class="title">
+        自动恢复
+      </div>
+
+      <div class="switch clearFix" >
+        <p class="f_left">自动恢复功能:</p>
+        <div class="mui-switch f_right">
+          <div class="mui-switch-handle">
+          </div>
+        </div>
+      </div>
+      <p class="tip1 clearFix">(设备异常时自动启动)</p>
+
+      <div class="switch clearFix">
+        <p class="f_left">定时重启功能:</p>
+        <div class="mui-switch f_right">
+          <div class="mui-switch-handle">
+          </div>
+        </div>
+      </div>
+      <p class="tip2 clearFix">(定时重启仅在网络校对时后生效)</p>
+
+      <div class="week">
+
+        <div style="display: flex;width: 100%">
+          <div style="flex: 1">
+            <span class="f_left">星期:</span>
+          </div>
+
+          <div style="flex: 1">
+            <input type="checkbox" name="week">
+            <span class="f_left">&nbsp;一&nbsp;</span>
+          </div>
+          <div style="flex: 1">
+            <input type="checkbox" name="week">
+            <span class="f_left">&nbsp;二&nbsp;</span>
+          </div>
+
+          <div style="flex: 1">
+            <input type="checkbox" name="week">
+            <span class="f_left">&nbsp;三&nbsp;</span>
+          </div>
+
+          <div style="flex: 1">
+            <input type="checkbox" name="week">
+            <span class="f_left">&nbsp;四&nbsp;</span>
+          </div>
+
+          <div style="flex: 1">
+            <input type="checkbox" name="week">
+            <span class="f_left">&nbsp;五&nbsp;</span>
+          </div>
+
+          <div style="flex: 1">
+            <input type="checkbox" name="week">
+            <span class="f_left">&nbsp;六&nbsp;</span>
+          </div>
+
+          <div style="flex: 1">
+            <input type="checkbox" name="week">
+            <span class="f_left">&nbsp;日&nbsp;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="time clearFix">
+        <span class="f_left">时间:</span>
+        <input type="time" class="first f_left">
+        <span class="f_left">&nbsp;: &nbsp;</span>
+        <input type="time" class="last f_left">
+      </div>
+
+
+      <div class="button">
+        <input class="save" type="button" value="保存">
+      </div>
+
+      <div class="title">
+        修改管理密码
+      </div>
+
+      <div class="input clearFix">
+        <div class="f_left">原密码:
+        </div>
+        <div class="f_right">
+          <input type="text" value="">
+        </div>
+      </div>
+
+
+      <div class="input clearFix">
+        <div class="f_left">新密码:
+        </div>
+        <div class="f_right">
+          <input type="text" value="">
+        </div>
+      </div>
+
+      <div class="button">
+        <input class="save" type="button" value="保存">
+      </div>
+
+
+
+
+    </div>
+  </section>
+</div>
+</body>
+</html>

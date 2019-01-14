@@ -98,6 +98,21 @@
 
 
     }
+
+    p.tip1{
+      text-align: center;
+      color: #aabdd3;
+      font-size: 12rem/@baseFontSize;
+      margin: 0;
+    }
+    p.tip2{
+      text-align: center;
+      color: #e5d7d7;
+      font-size: 12rem/@baseFontSize;
+      margin: 0;
+    }
+
+
     .input {
       width: 100%;
       height: 100rem/@baseFontSize;
@@ -107,16 +122,55 @@
       }
     }
 
+
     .button{
-      height: 100rem/@baseFontSize;
       padding: 20rem/@baseFontSize 0;
       input[type=button]{
         border-radius: 10rem/@baseFontSize;
         background-color: #48a3ff;
         color: #ffffff;
         margin-top: 15rem/@baseFontSize;
-        width: 140rem/@baseFontSize;
+        padding: 0 20rem/@baseFontSize;
         height: 70rem/@baseFontSize;
+        &.save{
+          padding: 0 40rem/@baseFontSize;
+        }
+      }
+    }
+
+    div.week{
+      margin: 20rem/@baseFontSize 0;
+      height: 40rem/@baseFontSize;
+      span{
+        line-height: 40rem/@baseFontSize;
+      }
+      input[type=checkbox]{
+        float: left;
+        display: block;
+        margin-top: 6rem/@baseFontSize;
+        width: 28rem/@baseFontSize;
+        height: 28rem/@baseFontSize;
+        border: 1rem/@baseFontSize solid #000;
+      }
+    }
+
+    div.time{
+
+      margin: 40rem/@baseFontSize 0 20rem/@baseFontSize;
+      height: 60rem/@baseFontSize;
+      span{
+        line-height: 60rem/@baseFontSize;
+      }
+      input{
+        width: 180rem/@baseFontSize;
+        height: 60rem/@baseFontSize;
+      }
+      input.first{
+        margin-left: 40rem/@baseFontSize;
+      }
+
+      input.last{
+
       }
     }
 
