@@ -20,6 +20,8 @@
     </header>
 
     <section class="content">
+
+        <!--4G状态部分-->
         <div class="box">
             <div class="box_hd">
                 <p>4G状态</p>
@@ -36,7 +38,7 @@
                         <li>SIM卡状态</li>
                         <li>信号强度</li>
                         <li>网络运营商</li>
-                        <li>网络制式</li>
+                        <li class="hide">网络制式</li>
                         <li>IPV4地址</li>
                         <li>默认网关</li>
                     </ul>
@@ -46,13 +48,17 @@
                         <li>未插卡</li>
                         <li>0~100</li>
                         <li>电信联通移动</li>
-                        <li>EGDE/UPA+/LTE/FDD/TDD</li>
+                        <li class="hide">EGDE/UPA+/LTE/FDD/TDD</li>
                         <li>0.0.0.0</li>
                         <li>0.0.0.0</li>
                     </ul>
                 </div>
             </div>
         </div>
+        <!--4G状态部分结束-->
+
+
+        <!--无线状态部分-->
         <div class="box" style="margin-top: -1px">
             <div class="box_hd">
                 <p>无线状态</p>
@@ -60,6 +66,7 @@
 
             <div class="box_line"></div>
 
+        <!--2.4G-->
             <div class="box_content clearFix">
                 <div class="box_content_hd">
                     <img src="images/wifi.png" alt="">&nbsp;2.4G
@@ -72,7 +79,7 @@
                         <li>无线名称</li>
                         <li>当前信道</li>
                         <li>当前模式</li>
-                        <li>WDS状态</li>
+                        <li class="hide">WDS状态</li>
                         <li>终端数量</li>
                     </ul>
                 </div>
@@ -81,15 +88,21 @@
                         <li>TP-LINK</li>
                         <li>6</li>
                         <li>11gbn mixed</li>
-                        <li>关闭</li>
+                        <li class="hide">关闭</li>
                         <li>6</li>
                     </ul>
                 </div>
             </div>
-            <div class="box_line"></div>
+        <!--2.4G-->
+
+            
 
 
-            <div class="box_content clearFix">
+
+
+        <!--5G-->
+            <div class="hide box_line"></div>
+            <div class="hide box_content clearFix">
                 <div class="box_content_hd">
                     <img src="images/wifi.png" alt="">&nbsp;5G
                     <div class="open">
@@ -115,9 +128,11 @@
                     </ul>
                 </div>
             </div>
-
+        <!--5G-->
 
         </div>
+        <!--无线状态部分结束-->
+
     </section>
 
 </div>
