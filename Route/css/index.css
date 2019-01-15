@@ -1,0 +1,334 @@
+@charset "UTF-8";
+@media (min-width: 320px) {
+  html {
+    font-size: 44.44444444px;
+  }
+}
+@media (min-width: 360px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media (min-width: 375px) {
+  html {
+    font-size: 52.08333333px;
+  }
+}
+@media (min-width: 384px) {
+  html {
+    font-size: 53.33333333px;
+  }
+}
+@media (min-width: 400px) {
+  html {
+    font-size: 55.55555556px;
+  }
+}
+@media (min-width: 414px) {
+  html {
+    font-size: 57.5px;
+  }
+}
+@media (min-width: 424px) {
+  html {
+    font-size: 58.88888889px;
+  }
+}
+@media (min-width: 480px) {
+  html {
+    font-size: 66.66666667px;
+  }
+}
+@media (min-width: 540px) {
+  html {
+    font-size: 75px;
+  }
+}
+@media (min-width: 640px) {
+  html {
+    font-size: 88.88888889px;
+  }
+}
+@media (min-width: 720px) {
+  html {
+    font-size: 100px;
+  }
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  font-size: 14px;
+  font-family: "Microsoft YaHei", sans-serif;
+  color: #333;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+input,
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+}
+.f_left {
+  float: left;
+}
+.f_right {
+  float: right;
+}
+.clearFix::before,
+.clearFix::after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+  clear: both;
+}
+.m_l10 {
+  margin-left: 10px;
+}
+.m_r10 {
+  margin-right: 10px;
+}
+.m_t10 {
+  margin-top: 10px;
+}
+.m_b10 {
+  margin-bottom: 10px;
+}
+.p_t2 {
+  padding-top: 0.02rem;
+}
+.p_b2 {
+  padding-bottom: 0.02rem;
+}
+.p_l2 {
+  padding-left: 0.02rem;
+}
+.p_r2 {
+  padding-right: 0.02rem;
+}
+.hide {
+  display: none;
+}
+/*版心*/
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding-bottom: 0.84rem;
+}
+.login_content {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.login_content h1 {
+  color: #636363;
+  margin-top: 20%;
+}
+.login_content p {
+  margin: 0.2rem 0;
+  color: #1584dc;
+}
+.login_content input[type=password] {
+  width: 80%;
+  margin: 0.2rem 0;
+}
+.login_content input[type=submit] {
+  width: 30%;
+  background-color: #307fff;
+  margin: 0.2rem 0;
+  color: #ffffff;
+}
+.tabBar {
+  width: 100% ;
+  height: 1rem;
+}
+.tabBar ul > li {
+  display: block;
+  float: left;
+  width: 33.33333%;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+}
+.tabBar ul > li a {
+  display: block;
+  font-size: 0.4rem;
+  font-weight: 700;
+  color: #727477;
+  background-color: #f5f5f6;
+}
+.content {
+  width: 100%;
+  padding: 0.2rem;
+}
+.content input[type=text] {
+  width: 5rem;
+}
+.content input[type=password] {
+  width: 5rem;
+}
+.content .box {
+  border: 0.01rem solid #ccc;
+  padding-bottom: 0.2rem;
+}
+.content .box .box_hd {
+  height: 0.8rem;
+}
+.content .box .box_hd p {
+  font-size: 0.3rem;
+  padding-left: 0.3rem;
+  color: #7395bc;
+  line-height: 0.8rem;
+}
+.content .box .box_line {
+  width: 100%;
+  height: 0.02rem;
+  background-color: #cccccc;
+}
+.content .box .box_content {
+  padding-bottom: 0.1rem;
+}
+.content .box .box_content .box_content_hd {
+  position: relative;
+  margin: 0.2rem;
+  height: 0.3rem;
+  line-height: 0.4rem;
+  font-size: 0.38rem;
+  color: #8f7d7a;
+}
+.content .box .box_content .box_content_hd img {
+  vertical-align: top;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.content .box .box_content .box_content_hd .open {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  font-size: 0.28rem;
+}
+.content .box .box_content .content_left {
+  float: left;
+  width: 50%;
+  padding-left: 0.5rem;
+}
+.content .box .box_content .content_right {
+  float: left;
+  width: 50%;
+}
+.content .box .box_content ul > li {
+  color: #9da1a8;
+  height: 0.4rem;
+  line-height: 0.4rem;
+}
+.content .wifibox {
+  padding: 0 0.2rem;
+  margin-bottom: 0.4rem;
+}
+.content .wifibox .title {
+  background-color: #edf3f9;
+  border: 1px solid #d6dce2;
+  margin: 0 -0.2rem;
+  height: 0.8rem;
+  border-radius: 0.15rem;
+  line-height: 0.78rem;
+  color: #aabdd3;
+  font-size: 0.35rem;
+}
+.content .wifibox .switch {
+  width: 100%;
+  height: 1rem;
+  padding: 0.2rem 0;
+}
+.content .wifibox .switch p {
+  line-height: 0.6rem;
+  color: #000;
+}
+.content .wifibox .switch p.f_right {
+  font-size: 0.14rem;
+  color: #cccccc;
+}
+@media (min-width: 720px) {
+  .content .wifibox .switch div.f_right {
+    margin-top: 0.15rem;
+  }
+}
+.content .wifibox p.tip1 {
+  text-align: center;
+  color: #aabdd3;
+  margin: 0;
+}
+.content .wifibox p.tip2 {
+  text-align: center;
+  color: #e5d7d7;
+  margin: 0;
+}
+.content .wifibox .input {
+  width: 100%;
+  height: 1rem;
+  padding: 0.2rem 0;
+}
+.content .wifibox .input div.f_left {
+  line-height: 0.6rem;
+}
+.content .wifibox .button {
+  padding: 0.2rem 0;
+}
+.content .wifibox .button input[type=button] {
+  border-radius: 0.1rem;
+  background-color: #48a3ff;
+  color: #ffffff;
+  margin-top: 0.15rem;
+  padding: 0 0.2rem;
+  height: 0.7rem;
+}
+.content .wifibox .button input[type=button].save {
+  padding: 0 0.4rem;
+}
+.content .wifibox div.week {
+  margin: 0.2rem 0;
+  height: 0.4rem;
+}
+.content .wifibox div.week span {
+  line-height: 0.4rem;
+}
+.content .wifibox div.week input[type=checkbox] {
+  float: left;
+  display: block;
+  margin-top: 0.06rem;
+  width: 0.28rem;
+  height: 0.28rem;
+  border: 0.01rem solid #000;
+}
+.content .wifibox div.time {
+  margin: 0.4rem 0 0.2rem;
+  height: 0.6rem;
+}
+.content .wifibox div.time span {
+  line-height: 0.6rem;
+}
+.content .wifibox div.time input {
+  width: 60%;
+  height: 0.6rem;
+  margin-left: 0.5rem;
+}
+/*# sourceMappingURL=index.css.map */
