@@ -276,9 +276,11 @@ textarea {
   padding: 0.2rem 0;
 }
 .content .wifibox .switch p {
+  line-height: 0.6rem;
   color: #000;
 }
 .content .wifibox .switch p.f_right {
+  font-size: 0.14rem;
   color: #cccccc;
 }
 @media (min-width: 720px) {
