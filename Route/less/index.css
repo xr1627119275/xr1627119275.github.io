@@ -345,10 +345,8 @@ textarea {
   line-height: 0.6rem;
 }
 .content .wifibox div.time input {
-  width: 40%;
+  width: 60%;
   height: 0.6rem;
-}
-.content .wifibox div.time input.first {
   margin-left: 0.4rem;
 }
 .switch-container {
