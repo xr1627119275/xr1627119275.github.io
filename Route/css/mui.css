@@ -2844,7 +2844,7 @@ select:focus
     -webkit-user-modify: read-write-plaintext-only;
 }
 
-select,
+
 textarea,
 input[type='text'],
 input[type='search'],
@@ -2915,12 +2915,8 @@ textarea
 
 select
 {
-    font-size: 14px;
 
-    height: auto;
-    margin-top: 1px;
 
-    border: 0 !important;
     background-color: #fff;
 }
 select:focus

@@ -326,9 +326,15 @@ textarea {
 .content .wifibox div.time span {
   line-height: 0.6rem;
 }
-.content .wifibox div.time input {
-  width: 60%;
+.content .wifibox div.time select {
+  width: 30%;
   height: 0.6rem;
-  margin-left: 0.5rem;
+  border-radius: 0.1rem;
+  margin-bottom: 0;
+  border: 1px solid #ccc;
+  padding-left: 0.2rem;
+}
+.content .wifibox div.time select.first {
+  margin-left: 0.3rem;
 }
 /*# sourceMappingURL=index.css.map */
