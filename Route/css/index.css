@@ -290,6 +290,20 @@ textarea {
 .content .wifibox .input div.f_left {
   line-height: 0.6rem;
 }
+.content .wifibox .input div.f_right {
+  width: 76%;
+}
+.content .wifibox .input div.rightselect {
+  width: 76%;
+}
+.content .wifibox .input div.rightselect select {
+  width: 30%;
+  height: 0.6rem;
+  border-radius: 0.1rem;
+  margin-bottom: 0;
+  border: 1px solid #ccc;
+  padding-left: 0.2rem;
+}
 .content .wifibox .button {
   padding: 0.2rem 0;
 }
